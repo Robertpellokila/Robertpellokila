@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Robertpellokila, I'm a web developer adn android developer
+- 👋 Hi, I’m @Robertpellokila, I'm a web developer and android developer
 - 👀 I’m interested in Coding & Programming
 - 🌱 I have Diploma in Computer and network engineering
 - 💞️ I’m looking to collaborate on my self. 
