@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @Robertpellokila
+- 👋 Hi, I’m @Robertpellokila, I'm a web developer adn android developer
 - 👀 I’m interested in Coding & Programming
-- 🌱 I’m currently learning Computer and network engineering
-- 💞️ I’m looking to collaborate on my self
+- 🌱 I have Diploma in Computer and network engineering
+- 💞️ I’m looking to collaborate on my self. 
 - 📫 How to reach me e-mail: robertpellokila09@gmail.com, or instagram : robert_pellokila.
 
 <!---
