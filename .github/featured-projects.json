@@ -4,7 +4,9 @@
   "maxProjects": 6,
 
   "featured": [
-    "my-iot-project"
+    "my-iot-project",
+    "lalash",
+    "robert"
   ],
 
   "exclude": [
