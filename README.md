@@ -115,35 +115,9 @@ console.log("Hello World! 👋");
 
 ---
 
-<!-- ================= PROJECTS ================= -->
+<!-- FEATURED_PROJECTS_START -->
 
-## 🚀 Featured Projects
-
-
-<h2 align="center">🚀 Featured Projects</h2>
-
-<div align="center">
-
-<a href="https://github.com/Robertpellokila/my-iot-project">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Robertpellokila&repo=my-iot-project&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/Robertpellokila/robert">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Robertpellokila&repo=NAMA-REPOSITORY-2&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/Robertpellokila/meetspace">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Robertpellokila&repo=NAMA-REPOSITORY-3&theme=tokyonight&hide_border=true" />
-</a>
-
-<a href="https://github.com/Robertpellokila/lalash">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=Robertpellokila&repo=NAMA-REPOSITORY-4&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
-
-
+<!-- FEATURED_PROJECTS_END -->
 ---
 
 <!-- ================= CONNECT ================= -->
