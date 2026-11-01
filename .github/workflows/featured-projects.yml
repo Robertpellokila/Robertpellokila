@@ -1,0 +1,58 @@
+
+name: Update Featured Projects
+
+on:
+  # Update otomatis setiap hari pukul 00:00 UTC
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Bisa dijalankan manual
+  workflow_dispatch:
+
+  # Jalankan ketika konfigurasi atau script berubah
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/featured-projects.json"
+      - ".github/scripts/update-projects.mjs"
+      - ".github/workflows/featured-projects.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: featured-projects
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate Featured Projects
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/update-projects.mjs
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No README changes detected."
+          else
+            git commit -m "chore: update featured projects"
+            git push
+          fi
