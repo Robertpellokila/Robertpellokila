@@ -119,23 +119,36 @@ console.log("Hello World! 👋");
 
 ## 🚀 Featured Projects
 
-<div align="center">
 
-<a href="https://github.com/Robertpellokila?tab=repositories">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=Robertpellokila&repo=my-iot-project&theme=tokyonight&hide_border=true" />
-</a>
+<h2 align="center">🚀 Featured Projects</h2>
 
-</div>
+<table align="center">
+<tr>
+<td width="100%">
 
-Explore more of my work:
+<h3 align="center">⚡ Smart IoT Project</h3>
 
-<div align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/ESP32-IoT-blue?style=for-the-badge&logo=espressif" />
+  <img src="https://img.shields.io/badge/Vue.js-Frontend-42b883?style=for-the-badge&logo=vuedotjs" />
+  <img src="https://img.shields.io/badge/Supabase-Backend-3ecf8e?style=for-the-badge&logo=supabase" />
+</p>
 
-<a href="https://github.com/Robertpellokila?tab=repositories">
-<img src="https://img.shields.io/badge/Explore%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<p align="center">
+  An IoT development project integrating hardware,
+  web technologies, and database systems.
+</p>
 
-</div>
+<p align="center">
+  <a href="https://github.com/Robertpellokila/my-iot-project">
+    <img src="https://img.shields.io/badge/VIEW_PROJECT-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+</td>
+</tr>
+</table>
+
 
 ---
 
