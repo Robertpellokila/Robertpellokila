@@ -105,7 +105,11 @@ console.log("Hello World! 👋");
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Robertpellokila/Robertpellokila/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
+<img
+  src="https://raw.githubusercontent.com/Robertpellokila/Robertpellokila/output/github-contribution-grid-snake-dark.svg"
+  width="100%"
+  alt="GitHub Contribution Snake"
+/>
 
 </div>
 
