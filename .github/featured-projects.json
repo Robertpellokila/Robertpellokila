@@ -1,0 +1,16 @@
+
+{
+  "username": "Robertpellokila",
+  "maxProjects": 6,
+
+  "featured": [
+    "my-iot-project"
+  ],
+
+  "exclude": [
+    "Robertpellokila"
+  ],
+
+  "showForks": false,
+  "showArchived": false
+}
